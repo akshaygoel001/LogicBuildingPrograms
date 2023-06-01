@@ -46,6 +46,7 @@ public class RemoveDuplicates {
         //Set<Integer> s = new LinkedHashSet<Integer>(list);  
 
 		System.out.println(uniquelist);
+		
 
 	}
 
