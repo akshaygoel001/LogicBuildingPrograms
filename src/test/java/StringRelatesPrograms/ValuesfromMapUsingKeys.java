@@ -12,8 +12,12 @@ public class ValuesfromMapUsingKeys {
 		arr.put("b", 3);
 		arr.put("c", 4);
 		arr.put("d", 5);
-		
-		System.out.println(arr.get("a"));
+		try {
+			System.out.println(arr.get("a"));
+		}
+		finally {
+			
+		}
 		
 	}
 }
