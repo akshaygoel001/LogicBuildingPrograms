@@ -1,4 +1,4 @@
-package PatternsCode;
+package SeleniumTestersPrograms;
 
 import java.util.Scanner;
 
@@ -23,8 +23,8 @@ public class PrimeNumbers {
 		Scanner in=new Scanner(System.in);
 		System.out.println("Enter prime number :");
 		int n=in.nextInt();
-		checkPrime(n);
-		/*for(int i=1;i<n;i++) {
+		//checkPrime(n);
+		for(int i=1;i<n;i++) {
 			int counter=0;
 			for(int j=i;j>=1;j--) {
 				if(i%j==0) {
@@ -35,6 +35,6 @@ public class PrimeNumbers {
 				primenum=primenum+i+" ";
 			}
 		}
-		System.out.println(primenum);*/
+		System.out.println(primenum);
 	}
 }
