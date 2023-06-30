@@ -1,4 +1,4 @@
-package StringRelatesPrograms;
+package SeleniumTestersPrograms;
 
 import java.util.Scanner;
 

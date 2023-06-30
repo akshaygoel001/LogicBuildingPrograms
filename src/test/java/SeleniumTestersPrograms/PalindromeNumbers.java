@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 //same for reverse integer
-public class Palindrome {
+public class PalindromeNumbers {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
