@@ -1,10 +1,17 @@
 package SeleniumTestersPrograms;
 
-public class SumDigit {
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.List;
+
+public class CharacterFrequency {
   	public static void main(String[] args) {
     String s="TTere aaa some myths related to Dragon fruits";
 		List<String> list=new ArrayList<String>();
+		HashSet<Character> set = new HashSet<>();
 		String[] arr=new String[s.length()];
+		int counter;
 		arr=s.split(" ");
 		int count=0;
 		for(int i=0;i<arr.length;i++) {

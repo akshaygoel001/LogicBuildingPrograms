@@ -1,5 +1,7 @@
 package SeleniumTestersPrograms;
 
+import java.util.Random;
+
 public class RandomNumberAndString {
   	public static void main(String[] args) {
     double randInt=Math.random()*1000;
