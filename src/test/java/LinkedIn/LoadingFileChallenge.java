@@ -5,6 +5,7 @@ import java.io.PrintWriter;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class LoadingFileChallenge {
 
@@ -19,9 +20,9 @@ public class LoadingFileChallenge {
         Collection c = new ArrayList();
         c.addAll(Arrays.asList(1,2,3,4,5));
         c.stream()
-                .filter(i -> (int)i % 2 == 0)
+                .map(i -> (Integer)i * (Integer)i)
                 .forEach(System.out::println);
-
+        System.out.println(c.stream().mapToInt((i) -> (Integer) i).summaryStatistics().getMax());
         System.out.println(c.stream().min(Comparator.naturalOrder()));
         LocalDate today = LocalDate.now();
         System.out.println(today.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
